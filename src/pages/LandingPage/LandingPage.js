@@ -20,13 +20,14 @@ const LandingPage = (props, context) => {
         <div className="intro-wrapper">
           <div className="intro-name">Hello, I'm Albérico Dias!</div>
           <div className="tagline">
-            Full Stack Dev |Student Computer Science | Twitch Developer |
+            Full Stack Dev | Computer Science Student | Twitch Developer |
             Ninja-Jr
           </div>
           <SocialIcons />
         </div>
       </main>
-      <ScrollToNext pageSelector=".about-page" />
+      {/* <ScrollToNext pageSelector=".about-page" /> */}
+      <ScrollToNext pageSelector=".portfolio-page" />
     </div>
   );
 };

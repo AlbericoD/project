@@ -9,7 +9,6 @@ import Browser from '@components/Browser';
 import Footer from '@components/Footer';
 
 class App extends Component {
-
   render() {
     return (
       <div className="dev-landing-page">
@@ -18,8 +17,8 @@ class App extends Component {
             <ParallaxBackground />
           </Browser>
           <LandingPage />
-          <AboutPage />
           <PortfolioPage />
+          <AboutPage />
           <ScrollTop />
           <Footer />
         </ThemeSwitcher>
