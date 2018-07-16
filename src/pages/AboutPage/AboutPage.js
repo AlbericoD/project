@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ScrollToNext from '@components/ScrollToNext';
 import ScrollToPrevious from '@components/ScrollToPrevious';
 import './style.scss';
 

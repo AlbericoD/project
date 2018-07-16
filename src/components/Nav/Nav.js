@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toElement as scrollToElement } from '@utils/scroll';
-
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './style.scss';
 
 class Nav extends Component {
@@ -79,6 +79,14 @@ class Nav extends Component {
             onClick={e => this.scrollToPage('.portfolio-page')}
           >
             Projects
+          </div>
+          <div className="menu__item">
+            <Link to="/twitch-extension/terms-of-service">
+              Terms of Service
+            </Link>
+          </div>
+          <div className="menu__item">
+            <Link to="/twitch-extension/privacy-policy">Privacy Policy</Link>
           </div>
         </div>
       </nav>

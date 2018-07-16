@@ -18,14 +18,7 @@ const SocialIcons = (props, context) => {
       >
         <i className="fab fa-github" />
       </a>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://twitter.com/bekoslove"
-        style={{ color: colorPrimary }}
-      >
-        <i className="fab fa-twitter" />
-      </a>
+
       <a
         target="_blank"
         rel="noopener noreferrer"
