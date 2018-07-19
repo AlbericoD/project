@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import './style';
 
 const Footer = (props, context) => {
-  const {
-    theme: { colorPrimary, textPrimary }
-  } = context;
+  // const {
+  //   theme: { colorPrimary, textPrimary }
+  // } = context;
   return (
     <footer>
       <div className="content-grid" />

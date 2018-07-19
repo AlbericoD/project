@@ -9,7 +9,7 @@ import ThemeSwitcher from '@components/ThemeSwitcher';
 import Browser from '@components/Browser';
 import Footer from '@components/Footer';
 import { Tos, Pp } from './pages/Legal/Legal';
-
+import Fortnite from './pages/Fluxo/Fortnite';
 class App extends Component {
   render() {
     return (
@@ -23,6 +23,7 @@ class App extends Component {
             <Route exact path="/" component={All} />
             <Route path="/twitch-extension/privacy-policy" component={Pp} />
             <Route path="/twitch-extension/terms-of-service" component={Tos} />
+            <Route path="/fortnite-jump-poll" component={Fortnite} />
           </Switch>
 
           <ScrollTop />
