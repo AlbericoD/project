@@ -10,6 +10,8 @@ import Browser from '@components/Browser';
 import Footer from '@components/Footer';
 import { Tos, Pp } from './pages/Legal/Legal';
 import Fortnite from './pages/Fluxo/Fortnite';
+import Fortnite2 from './pages/Fluxo2/Fortnite';
+import Fortnite3 from './pages/Fluxo3/Fortnite';
 class App extends Component {
   render() {
     return (
@@ -24,6 +26,8 @@ class App extends Component {
             <Route path="/twitch-extension/privacy-policy" component={Pp} />
             <Route path="/twitch-extension/terms-of-service" component={Tos} />
             <Route path="/fortnite-jump-poll" component={Fortnite} />
+            <Route path="/fortnite-jump-poll-v2" component={Fortnite2} />
+            <Route path="/fortnite-jump-poll-v3" component={Fortnite3} />
           </Switch>
 
           <ScrollTop />

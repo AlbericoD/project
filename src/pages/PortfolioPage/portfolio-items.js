@@ -21,9 +21,9 @@ export default [
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.twitch.tv/p/pt-br/extensions/"
+            href="https://www.twitch.tv/ext/hecb122wgtrzumrv9ywwjn7wg6nglq-0.0.3"
           >
-            Log In Twitch
+             Twitch
           </a>
         </div>
       </div>
