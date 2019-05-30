@@ -11,36 +11,28 @@ export default class Page extends Component {
   }
   componentDidMount() {}
   render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
     return (
-      <div className="main-container">
-        <section id="timeline" className="timeline-outer">
-          <div className="container" id="content">
-            <div className="row">
-              <div className="col s12 m12 l12">
-                <h1 className="blue-text lighten-1 header">
+      <div className='main-container'>
+        <section id='timeline' className='timeline-outer'>
+          <div className='container' id='content'>
+            <div className='row'>
+              <div className='col s12 m12 l12'>
+                <h1 className='blue-text lighten-1 header'>
                   {/* Fortnite Jump Poll */}
                   <img src={Imagem.descoberta} alt={'texto'} />
                 </h1>
-                <h1 className="blue-text lighten-1 header">
+                <h1 className='blue-text lighten-1 header'>
                   {/* Fortnite Jump Poll */}
                   Application flow
                 </h1>
 
-                <ul className="timeline">
+                <ul className='timeline'>
                   {textos.map(secao => {
                     return (
                       <li
-                        className="event"
+                        className='event'
                         data-date={secao.timeline}
-                        key={(Math.random() * 1000) / 4}
-                      >
+                        key={(Math.random() * 1000) / 4}>
                         <h3>{secao.titulo}</h3>
                         <br />
                         <p>{secao.texto}</p> <hr />
@@ -53,10 +45,7 @@ export default class Page extends Component {
                         <hr />
                         <ul>
                           {secao.listas.map(item => (
-                            <li
-                              className="event"
-                              key={(Math.random() * 1000) / 4}
-                            >
+                            <li className='event' key={(Math.random() * 1000) / 4}>
                               {item}
                             </li>
                           ))}

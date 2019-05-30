@@ -9,8 +9,8 @@ const AboutPage = (props, context) => {
   } = context;
 
   return (
-    <div className="about-page" style={{ backgroundColor: bgPrimary }}>
-      <style jsx="true">
+    <div className='about-page' style={{ backgroundColor: bgPrimary }}>
+      <style jsx='true'>
         {`
           .highlight {
             background-color: ${colorHighlight};
@@ -20,33 +20,32 @@ const AboutPage = (props, context) => {
           }
         `}
       </style>
-      <div className="content-grid">
+      <div className='content-grid'>
         <h1 style={{ color: colorPrimary }}>About</h1>
-        <div className="about-wrapper">
-          <div className="about-content" style={{ color: textPrimary }}>
+        <div className='about-wrapper'>
+          <div className='about-content' style={{ color: textPrimary }}>
             <p>
-              I like <span className="highlight">Technology</span> and
-              everything on the web.
+              I like <span className='highlight'>Technology</span> and everything on the web.
             </p>
             <p>
-              I'm currently studying{' '}
-              <span className="highlight">computer science </span>in Brazil, I'm
-              focusing on developing extensions to the{' '}
-              <span className="highlight">twitch </span>platform.
+              I'm currently studying
+              <span className='highlight'>computer science </span>in Brazil, I'm focusing on
+              developing extensions to the
+              <span className='highlight'>twitch </span>platform.
             </p>
             <p>
-              I've done something with: React, Node.js, Mongo, Sequelize,
-              Vanilla Javascript, Docker, AWS, Heroku and Google Translate
-              (hehehehehe) are the top tricks up the sleeve.
+              I've done something with: React, Node.js, Mongo, Sequelize, Vanilla Javascript,
+              Docker, AWS, Heroku and Google Translate (hehehehehe) are the top tricks up the
+              sleeve.
             </p>
 
-            <p className="text-emoji" style={{ color: colorPrimary }}>
+            <p className='text-emoji' style={{ color: colorPrimary }}>
               \ (•◡•) /
             </p>
           </div>
         </div>
       </div>
-      <ScrollToPrevious pageSelector=".portfolio-page" />
+      <ScrollToPrevious pageSelector='.portfolio-page' />
     </div>
   );
 };

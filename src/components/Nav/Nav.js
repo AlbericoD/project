@@ -54,39 +54,30 @@ class Nav extends Component {
         ref={elem => {
           this.nav = elem;
         }}
-        style={stickyStyles}
-      >
+        style={stickyStyles}>
         {/* <div className="magic-wand bounce-xy" onClick={e => switchTheme()}>
           <button className="fas fa-magic fa-lg" href="#" />
           <div className="magic-text">Color Me</div>
         </div> */}
-        <style jsx="true">
+        <style jsx='true'>
           {`
             .menu__item:hover {
               border-bottom: 2px solid ${colorPrimary};
             }
           `}
         </style>
-        <div className="menu">
-          <div
-            className="menu__item active"
-            onClick={e => this.scrollToPage('.about-page')}
-          >
+        <div className='menu'>
+          <div className='menu__item active' onClick={e => this.scrollToPage('.about-page')}>
             About
           </div>
-          <div
-            className="menu__item"
-            onClick={e => this.scrollToPage('.portfolio-page')}
-          >
+          <div className='menu__item' onClick={e => this.scrollToPage('.portfolio-page')}>
             Projects
           </div>
-          <div className="menu__item">
-            <Link to="/twitch-extension/terms-of-service">
-              Terms of Service
-            </Link>
+          <div className='menu__item'>
+            <Link to='/twitch-extension/terms-of-service'>Terms of Service</Link>
           </div>
-          <div className="menu__item">
-            <Link to="/twitch-extension/privacy-policy">Privacy Policy</Link>
+          <div className='menu__item'>
+            <Link to='/twitch-extension/privacy-policy'>Privacy Policy</Link>
           </div>
         </div>
       </nav>
